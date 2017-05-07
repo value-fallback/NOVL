@@ -27,5 +27,22 @@ yarn add novl
 
 ```javascript
 const novl = require('novl');
-...
+
+// When a value is not Number, it will return fallback value.
+let a = novl(null, 0); // a = 0
+let b = novl({}, 'x'); // b = 'x'
+
+// When a value is Number, it will return that value.
+let c = novl(NaN, 1); // c = NaN   😂
+let d = novl(100, [0, 1, 2]); // d = 100
 ```
+
+## API
+
+### novl(value, fallbackValue)
+
+#### value
+A main value.
+
+#### fallbackValue
+A fallback value.
