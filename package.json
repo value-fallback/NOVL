@@ -1,0 +1,29 @@
+{
+  "name": "novl",
+  "version": "1.0.0",
+  "description": "Fallback when a value is not Number.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/value-fallback/NOVL"
+  },
+  "keywords": [
+    "number",
+    "fallback",
+    "value-fallback"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/value-fallback/NOVL/issues"
+  },
+  "homepage": "https://github.com/value-fallback/NOVL",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-gluons": "^2.0.1",
+    "mocha": "*"
+  }
+}
